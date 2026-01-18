@@ -1,5 +1,5 @@
 import { Inngest } from "inngest";
-import User from "../models/user";
+import User from "../models/user.js";
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "linkup-app" });
@@ -16,7 +16,7 @@ export const syncUserCreation = inngest.createFunction(
       image_url,
     } = event.data;
 
-    let username = email_addresses[0].email_address.spliit('@')[0]
+    let username = email_addresses[0].email_address.split('@')[0]
     
     //check availabity of username
     const user = await User.findOne({username})
@@ -44,7 +44,7 @@ export const syncUserCreation = inngest.createFunction(
 
 export const syncUserUpdation = inngest.createFunction(
   { id: "update-user-from-clerk" },
-  { event: "clerk/user.upd  ated" },
+  { event: "clerk/user.updated" },
   async ({ event }) => {
     const {
       id,
@@ -68,7 +68,7 @@ export const syncUserDeletion = inngest.createFunction(
   { event: "clerk/user.deleted" },
   async ({ event }) => {
     const {id} = event.data;
-    await User.findByIdAndUpdate(id)    
+    await User.findByIdAndDelete(id)    
   }
 );
 
