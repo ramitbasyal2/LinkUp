@@ -1,0 +1,2 @@
+npm i lucide-react => for react-icons
+npm i moment => to change the time format such as 1hr ago, 1 day ago 

@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.login-left {
+  padding: 80px;
+}
+/* sidebar style */
+.sidebar {
+  padding: 25px;
+}
+.create-post {
+  padding: 10px;
+}
+/* menuitem */
+.active {
+  padding: 6px;
+}
+/* storiesBar style*/
+.story {
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+/* storymodel */
+.storyText {
+  padding: 16px;
+}
+.bgColor {
+  margin-top: 13px;
+}
+.arrow_heading {
+  margin-bottom: 20px;
+}
+.text-btn {
+  margin-top: 15px;
+}
+.btn {
+  padding: 8px;
+}
+.create-btn {
+  padding: 10px;
+  margin-top: 15px;
+}
+
+/*  postcard section */
+.postcard {
+  padding: 20px;
+}
+.actions {
+  margin-top: 15px;
+}
+.action {
+  margin-top: 7px;
+}
+.content {
+  margin-bottom: 15px;
+}
+.userInfo {
+  margin-bottom: 15px;
+}
+
+/* feeds styling */
+.sponsored {
+  padding: 20px;
+}
+/* RecentMEssages.jsx style */
+.recent-message {
+  margin-top: 20px;
+  padding: 20px;
+}
+.msg {
+  margin-bottom: 15px;
+}
+.link {
+  margin-bottom: 10px;
+  padding: 10px 0px;
+}
+
+/* messages.jsx style */
+.messages {
+  padding: 30px;
+  margin: 0px auto;
+}
+.message1 {
+  margin-bottom: 20px;
+}
+.msg-text {
+  margin-bottom: 13px;
+}
+.msg-detail {
+  padding: 25px;
+}
+
+/* connection.jsx style */
+.connection {
+  padding: 40px;
+}
+.title {
+  margin-bottom: 30px;
+}
+.count {
+  margin-bottom: 40px;
+}
+.tab {
+  margin-bottom: 40px;
+}
+.tab-label {
+  margin-right: 20px;
+}
+.tab-btn {
+  padding: 6px;
+}
+.conc-profile {
+  padding: 20px;
+}
+.view-profile {
+  margin-top: 15px;
+}
+.viewprofile-btn {
+  padding: 8px;
+}
+
+/* Discover.jsx style */
+.discover {
+  padding: 40px;
+}
+.search {
+  padding: 30px;
+}
+.searchBox {
+  padding: 10px 40px;
+}
+.usercard {
+  padding: 30px 20px;
+}
+.usercard-name {
+  margin-top: 20px;
+}
+.usercard-bio {
+  padding: 0px 10px;
+}
+.user-discover {
+  margin-top: 30px;
+}
+.user-img {
+  margin: auto;
+}
+.usercard-location {
+  padding: 8px 12px;
+}
+.usercard-follower {
+  padding: 8px 12px;
+}
+.location-follower {
+  margin-top: 20px;
+}
+.follow {
+  padding: 8px;
+}
+.follow-btn {
+  margin-top: 20px;
+}
+
+/* profile.jsx styling */
+.profile {
+  padding: 30px;
+}
+.tabs {
+  margin-top: 30px;
+}
+.tab {
+  margin: auto;
+}
+.tab button {
+  padding: 10px;
+}
+
+.profile1 {
+  margin: auto;
+}
+.profile-posts {
+  margin-top: 25px;
+}
+.media-posts {
+  margin-top: 25px;
+}
+
+/* userprofileInfo.jsx style */
+.upi-profile {
+  padding: 20px;
+  margin-left: 120px;
+}
+.user-bio {
+  margin-top: 14px;
+}
+.user-location {
+  margin-top: 16px;
+}
+.user-edit {
+  padding: 6px 10px;
+}
+.post-details {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* create-post.jsx */
+.create {
+  padding: 30px;
+}
+.title {
+  margin-bottom: 40px;
+}
+.title-p {
+  margin-bottom: 10px;
+}
+.form {
+  padding: 20px;
+}
+.textarea {
+  margin-top: 20px;
+}
+.images {
+  margin-top: 20px;
+}
+.bottom-bar {
+  padding-top: 20px;
+  margin-top: 15px;
+}
+.publish-btn {
+  padding: 8px 23px;
+}
+
+/* chatbox.jsx styling */
+.chatbox-nav {
+  padding: 0% 10%;
+}
+.message {
+  padding: 1% 10%;
+}
+.chat {
+  margin-top: 5px;
+}
+.chat-msg {
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.inputs {
+  padding: 0 10%;
+}
+.input {
+  padding: 10px 25px;
+  position: absolute;
+  left: 40%;
+  bottom: 25px;
+  transform: translate(-50% -50%);
+}
+.send-btn {
+  padding: 10px;
+}
+
+/* proileModeal.jsx */
+.profile-modal {
+  padding: 10vh 0px;
+  margin: auto;
+}
+.cross-icon{
+  padding: 6px;
+}
+.profile-contain {
+  padding: 30px;
+}
+.profile-edit {
+  margin-bottom: 20px;
+}
+.edit-label {
+  margin-bottom: 15px;
+}
+.edit-image {
+  margin-top: 10px;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cover-edit {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.cover-img {
+  margin-top: 10px;
+}
+.user-input {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.user-label {
+  margin-bottom: 5px;
+}
+.contain-btn{
+  margin-top: 25px;
+}
+.btn {
+  padding: 8px 12px;
+}
