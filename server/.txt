@@ -1,9 +1,0 @@
-config folder for all configuration and db.js for connection with mongoose
-"connected" is a event which exeecutes when database is connected
-
-Now to store any data in the mongoDb database we have to create a model
-.....
-and after this we moove to the ingest for user  data save and other functionality 
-1 install ingest
-and after that import inngest in server file
---to delete update and save data we use ingest /index.js for userdata

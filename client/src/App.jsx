@@ -6,15 +6,13 @@ import CreatePost from './pages/CreatePost'
 import Discover from './pages/Discover'
 import Feed from './pages/Feed'
 import Layout from './pages/Layout'
-import Login from './pages/Login'
 import Messages from './pages/Messages'
 import Profile from './pages/Profile'
-import { useUser } from '@clerk/clerk-react'
 import {Toaster} from 'react-hot-toast'
 
 const App = () => {
 
-  const {user} = useUser()
+
   
 
   return (
@@ -23,7 +21,7 @@ const App = () => {
     <Toaster/>
 <Routes>
 
-<Route path='/' element={ !user ? <Login/> : <Layout/> } >
+<Route path='/' element={ <Layout/> } >
     <Route index element={<Feed/>}/>
     <Route path='messages' element={<Messages/>} />
     <Route path='messages/:userId' element={<ChatBox/>} />
