@@ -19,7 +19,10 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
     } transition-all
         duration-300 ease-in-out `}>
     <div className="w-full flex flex-col gap-6">
-      <img onClick={()=> navigate('/')} className="w-26 ml-7 cursor-pointer" src={assets.logo} alt="" />
+      <div className="flex gap-1">
+         <img onClick={()=> navigate('/')} className="w-6 ml-7 cursor-pointer" src={`${assets.favicon}`} alt="" />
+      <p className="font-bold text-xl">LinkUp</p>
+      </div>
         <hr className="border-gray-300 -mt-15"/>
 
         <MenuItem setSidebarOpen={setSidebarOpen}/>
